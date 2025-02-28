@@ -7,7 +7,6 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Cart from './components/Cart';  // Asegúrate de tener este componente si lo necesitas
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/cart" element={<Cart />} /> 
       </Routes>
       <Footer />
     </Router>
@@ -27,6 +25,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
